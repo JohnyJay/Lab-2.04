@@ -61,4 +61,13 @@ public class Person {
                 Objects.equals(getOccupation(), p.getOccupation());
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", occupation='" + occupation + '\'' +
+                '}';
+    }
 }
